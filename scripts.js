@@ -1,7 +1,8 @@
-const clickcards = document.querySelector(".memory-card");
+const clickcards = document.querySelectorAll(".memory-card");
 
-button.forEach(card => {
+clickcards.forEach(card => {
   card.addEventListener("click", (event) => {
     card.classList.toggle("flip");
   });
 });
+
